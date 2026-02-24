@@ -724,3 +724,4 @@ func file_dota_client_enums_proto_init() {
 	file_dota_client_enums_proto_goTypes = nil
 	file_dota_client_enums_proto_depIdxs = nil
 }
+

@@ -237,3 +237,4 @@ func file_steammessages_unified_base_steamworkssdk_proto_init() {
 	file_steammessages_unified_base_steamworkssdk_proto_goTypes = nil
 	file_steammessages_unified_base_steamworkssdk_proto_depIdxs = nil
 }
+

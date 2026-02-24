@@ -71,3 +71,4 @@ func IsWordVerb(word string) bool {
 	_, ok := verbs[strings.ToLower(word)]
 	return ok
 }
+

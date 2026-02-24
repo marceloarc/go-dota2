@@ -2,7 +2,7 @@ package events
 
 import (
 	"github.com/golang/protobuf/proto"
-	"github.com/paralin/go-dota2/protocol"
+	"github.com/marceloarc/go-dota2/protocol"
 )
 
 // Event is a DOTA event.
@@ -14,3 +14,4 @@ type Event interface {
 	// GetEventName returns the event name.
 	GetEventName() string
 }
+

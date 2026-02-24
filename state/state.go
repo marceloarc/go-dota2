@@ -1,7 +1,7 @@
 package state
 
 import (
-	gcmm "github.com/paralin/go-dota2/protocol"
+	gcmm "github.com/marceloarc/go-dota2/protocol"
 )
 
 // Dota2State is a snapshot of the client state at a point in time.
@@ -27,3 +27,4 @@ func (s *Dota2State) ClearState() {
 func (s *Dota2State) IsReady() bool {
 	return s.ConnectionStatus == gcmm.GCConnectionStatus_GCConnectionStatus_HAVE_SESSION
 }
+

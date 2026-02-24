@@ -5,9 +5,9 @@ import (
 	"sync"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/paralin/go-steam/protocol/gamecoordinator"
+	"github.com/marceloarc/go-steam/protocol/gamecoordinator"
 
-	gcm "github.com/paralin/go-dota2/protocol"
+	gcm "github.com/marceloarc/go-dota2/protocol"
 )
 
 // responseHandler returns handled, and any error
@@ -104,3 +104,4 @@ func (d *Dota2) handleResponsePacket(packet *gamecoordinator.GCPacket) (handled 
 
 	return
 }
+

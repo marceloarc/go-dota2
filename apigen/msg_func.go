@@ -4,7 +4,7 @@ import (
 	"strings"
 
 	"github.com/fatih/camelcase"
-	dota_gcmessages_msgid "github.com/paralin/go-dota2/protocol"
+	dota_gcmessages_msgid "github.com/marceloarc/go-dota2/protocol"
 )
 
 // GetMessageFuncName determines what function name we should assign a message.
@@ -73,3 +73,4 @@ func GetMessageFuncName(msg dota_gcmessages_msgid.EDOTAGCMsg) string {
 	msgName = strings.Join(words, "")
 	return msgName
 }
+

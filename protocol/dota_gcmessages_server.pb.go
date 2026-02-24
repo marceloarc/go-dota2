@@ -16655,3 +16655,4 @@ func file_dota_gcmessages_server_proto_init() {
 	file_dota_gcmessages_server_proto_goTypes = nil
 	file_dota_gcmessages_server_proto_depIdxs = nil
 }
+

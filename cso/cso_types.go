@@ -2,10 +2,10 @@ package cso
 
 import (
 	"github.com/golang/protobuf/proto"
-	bgcm "github.com/paralin/go-dota2/protocol"
-	gcclm "github.com/paralin/go-dota2/protocol"
-	gccm "github.com/paralin/go-dota2/protocol"
-	gcmm "github.com/paralin/go-dota2/protocol"
+	bgcm "github.com/marceloarc/go-dota2/protocol"
+	gcclm "github.com/marceloarc/go-dota2/protocol"
+	gccm "github.com/marceloarc/go-dota2/protocol"
+	gcmm "github.com/marceloarc/go-dota2/protocol"
 	"github.com/pkg/errors"
 )
 
@@ -99,3 +99,4 @@ func NewSharedObject(typ CSOType) (proto.Message, error) {
 
 	return ctor(), nil
 }
+

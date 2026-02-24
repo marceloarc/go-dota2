@@ -2526,3 +2526,4 @@ func file_networkbasetypes_proto_init() {
 	file_networkbasetypes_proto_goTypes = nil
 	file_networkbasetypes_proto_depIdxs = nil
 }
+

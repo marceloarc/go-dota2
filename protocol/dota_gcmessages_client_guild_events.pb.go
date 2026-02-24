@@ -2332,3 +2332,4 @@ func file_dota_gcmessages_client_guild_events_proto_init() {
 	file_dota_gcmessages_client_guild_events_proto_goTypes = nil
 	file_dota_gcmessages_client_guild_events_proto_depIdxs = nil
 }
+

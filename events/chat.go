@@ -2,7 +2,7 @@ package events
 
 import (
 	"github.com/golang/protobuf/proto"
-	gcmcc "github.com/paralin/go-dota2/protocol"
+	gcmcc "github.com/marceloarc/go-dota2/protocol"
 )
 
 // ChatMessage is emitted when a chat message is observed.
@@ -44,3 +44,4 @@ func (e *JoinedChatChannel) GetEventBody() proto.Message {
 func (e *JoinedChatChannel) GetEventName() string {
 	return "JoinedChatChannel"
 }
+

@@ -3,11 +3,11 @@ package dota2
 import (
 	"context"
 
-	devents "github.com/paralin/go-dota2/events"
-	gcsdkm "github.com/paralin/go-dota2/protocol"
-	gcsm "github.com/paralin/go-dota2/protocol"
-	"github.com/paralin/go-dota2/state"
-	"github.com/paralin/go-steam/protocol/gamecoordinator"
+	devents "github.com/marceloarc/go-dota2/events"
+	gcsdkm "github.com/marceloarc/go-dota2/protocol"
+	gcsm "github.com/marceloarc/go-dota2/protocol"
+	"github.com/marceloarc/go-dota2/state"
+	"github.com/marceloarc/go-steam/protocol/gamecoordinator"
 )
 
 // SetPlaying informs Steam we are playing / not playing Dota 2.
@@ -129,3 +129,4 @@ func (d *Dota2) setConnectionStatus(
 		return true, nil
 	})
 }
+

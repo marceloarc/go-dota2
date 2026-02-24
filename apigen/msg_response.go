@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"strings"
 
-	gcm "github.com/paralin/go-dota2/protocol"
+	gcm "github.com/marceloarc/go-dota2/protocol"
 	"github.com/pkg/errors"
 )
 
@@ -112,3 +112,4 @@ func LookupMessageProtoType(protoMap map[string]*ProtoType, msgID gcm.EDOTAGCMsg
 
 	return nil, errors.Errorf("unable to find proto for: %s", msgID.String())
 }
+

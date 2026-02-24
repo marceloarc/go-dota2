@@ -3584,3 +3584,4 @@ func file_dota_gcmessages_common_battle_report_proto_init() {
 	file_dota_gcmessages_common_battle_report_proto_goTypes = nil
 	file_dota_gcmessages_common_battle_report_proto_depIdxs = nil
 }
+

@@ -14,3 +14,4 @@ func (i EventType) String() string {
 	}
 	return _EventType_name[_EventType_index[i]:_EventType_index[i+1]]
 }
+

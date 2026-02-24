@@ -1,8 +1,8 @@
 package dota2
 
 import (
-	bgcm "github.com/paralin/go-dota2/protocol"
-	"github.com/paralin/go-steam/steamid"
+	bgcm "github.com/marceloarc/go-dota2/protocol"
+	"github.com/marceloarc/go-steam/steamid"
 )
 
 // InviteLobbyMember attempts to invite a player to the current lobby.
@@ -12,3 +12,4 @@ func (d *Dota2) InviteLobbyMember(playerID steamid.SteamId) {
 		SteamId: &steamID,
 	})
 }
+

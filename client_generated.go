@@ -3,9 +3,9 @@ package dota2
 import (
 	"context"
 
-	"github.com/paralin/go-dota2/events"
-	"github.com/paralin/go-dota2/protocol"
-	"github.com/paralin/go-steam/steamid"
+	"github.com/marceloarc/go-dota2/events"
+	"github.com/marceloarc/go-dota2/protocol"
+	"github.com/marceloarc/go-steam/steamid"
 )
 
 // AbandonLobby abandons a lobby.
@@ -8213,3 +8213,4 @@ func (d *Dota2) registerGeneratedHandlers() {
 		return &events.WatchDownloadedReplay{}
 	})
 }
+

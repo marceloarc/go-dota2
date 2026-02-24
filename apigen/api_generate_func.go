@@ -6,7 +6,7 @@ import (
 	"strings"
 
 	"github.com/fatih/camelcase"
-	gcm "github.com/paralin/go-dota2/protocol"
+	gcm "github.com/marceloarc/go-dota2/protocol"
 	"github.com/pkg/errors"
 )
 
@@ -127,3 +127,4 @@ func (f *generatedRequestFunc) generateComment() string {
 
 	return fmt.Sprintf("%s %s\n%s\n%s", f.methodName, purpose, acA, acB)
 }
+

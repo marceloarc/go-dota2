@@ -1,8 +1,8 @@
 package dota2
 
 import (
-	gcm "github.com/paralin/go-dota2/protocol"
-	gcmcc "github.com/paralin/go-dota2/protocol"
+	gcm "github.com/marceloarc/go-dota2/protocol"
+	gcmcc "github.com/marceloarc/go-dota2/protocol"
 )
 
 // SendChannelMessage attempts to send a message in a channel, text-only.
@@ -13,3 +13,4 @@ func (d *Dota2) SendChannelMessage(channelID uint64, message string) {
 		Text:      &message,
 	})
 }
+

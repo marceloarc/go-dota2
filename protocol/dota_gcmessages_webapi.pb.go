@@ -4364,3 +4364,4 @@ func file_dota_gcmessages_webapi_proto_init() {
 	file_dota_gcmessages_webapi_proto_goTypes = nil
 	file_dota_gcmessages_webapi_proto_depIdxs = nil
 }
+

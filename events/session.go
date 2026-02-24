@@ -1,8 +1,8 @@
 package events
 
 import (
-	gcsdkm "github.com/paralin/go-dota2/protocol"
-	sprotocol "github.com/paralin/go-steam/protocol/gamecoordinator"
+	gcsdkm "github.com/marceloarc/go-dota2/protocol"
+	sprotocol "github.com/marceloarc/go-steam/protocol/gamecoordinator"
 )
 
 // GCConnectionStatusChanged is emitted when the client connection state is updated.
@@ -26,3 +26,4 @@ type UnhandledGCPacket struct {
 	// Packet is the unhandled packet.
 	Packet *sprotocol.GCPacket
 }
+

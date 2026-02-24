@@ -3,7 +3,7 @@ package main
 import (
 	"sort"
 
-	dota_gcmessages_msgid "github.com/paralin/go-dota2/protocol"
+	dota_gcmessages_msgid "github.com/marceloarc/go-dota2/protocol"
 )
 
 // IsValidMsg checks if the message is valid.
@@ -24,3 +24,4 @@ func getSortedMsgIDs() []dota_gcmessages_msgid.EDOTAGCMsg {
 	})
 	return msgIds
 }
+

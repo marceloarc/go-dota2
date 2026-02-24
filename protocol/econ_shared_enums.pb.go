@@ -390,3 +390,4 @@ func file_econ_shared_enums_proto_init() {
 	file_econ_shared_enums_proto_goTypes = nil
 	file_econ_shared_enums_proto_depIdxs = nil
 }
+

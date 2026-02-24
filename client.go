@@ -6,17 +6,17 @@ import (
 	"sync"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/paralin/go-steam"
-	"github.com/paralin/go-steam/protocol/gamecoordinator"
+	"github.com/marceloarc/go-steam"
+	"github.com/marceloarc/go-steam/protocol/gamecoordinator"
 	"github.com/sirupsen/logrus"
 
-	devents "github.com/paralin/go-dota2/events"
-	bgcm "github.com/paralin/go-dota2/protocol"
-	gcm "github.com/paralin/go-dota2/protocol"
-	gcsdkm "github.com/paralin/go-dota2/protocol"
-	gcsm "github.com/paralin/go-dota2/protocol"
-	"github.com/paralin/go-dota2/socache"
-	"github.com/paralin/go-dota2/state"
+	devents "github.com/marceloarc/go-dota2/events"
+	bgcm "github.com/marceloarc/go-dota2/protocol"
+	gcm "github.com/marceloarc/go-dota2/protocol"
+	gcsdkm "github.com/marceloarc/go-dota2/protocol"
+	gcsm "github.com/marceloarc/go-dota2/protocol"
+	"github.com/marceloarc/go-dota2/socache"
+	"github.com/marceloarc/go-dota2/state"
 )
 
 // AppID is the ID for dota2
@@ -194,3 +194,4 @@ func (d *Dota2) getEventEmitter(ctor func() devents.Event) func(packet *gamecoor
 		return nil
 	}
 }
+

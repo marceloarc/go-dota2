@@ -4,7 +4,7 @@ import (
 	"strings"
 
 	"github.com/fatih/camelcase"
-	"github.com/paralin/go-dota2/protocol"
+	"github.com/marceloarc/go-dota2/protocol"
 )
 
 // MsgSender is the sender type of a message.
@@ -77,3 +77,4 @@ func GetMessageSender(msg protocol.EDOTAGCMsg) MsgSender {
 
 	return MsgSenderClient
 }
+

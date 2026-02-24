@@ -997,3 +997,4 @@ func file_steammessages_proto_init() {
 	file_steammessages_proto_goTypes = nil
 	file_steammessages_proto_depIdxs = nil
 }
+

@@ -2176,3 +2176,4 @@ func file_dota_gcmessages_client_watch_proto_init() {
 	file_dota_gcmessages_client_watch_proto_goTypes = nil
 	file_dota_gcmessages_client_watch_proto_depIdxs = nil
 }
+

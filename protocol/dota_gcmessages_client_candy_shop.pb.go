@@ -2849,3 +2849,4 @@ func file_dota_gcmessages_client_candy_shop_proto_init() {
 	file_dota_gcmessages_client_candy_shop_proto_goTypes = nil
 	file_dota_gcmessages_client_candy_shop_proto_depIdxs = nil
 }
+

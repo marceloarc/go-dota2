@@ -15,3 +15,4 @@ func (i CSOType) String() string {
 	}
 	return _CSOType_name[_CSOType_index[i]:_CSOType_index[i+1]]
 }
+

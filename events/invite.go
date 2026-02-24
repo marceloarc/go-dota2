@@ -2,7 +2,7 @@ package events
 
 import (
 	"github.com/golang/protobuf/proto"
-	bgcm "github.com/paralin/go-dota2/protocol"
+	bgcm "github.com/marceloarc/go-dota2/protocol"
 )
 
 // InvitationCreated confirms that an invitation has been created.
@@ -24,3 +24,4 @@ func (e *InvitationCreated) GetEventBody() proto.Message {
 func (e *InvitationCreated) GetEventName() string {
 	return "InvitationCreated"
 }
+

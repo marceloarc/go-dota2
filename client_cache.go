@@ -1,9 +1,9 @@
 package dota2
 
 import (
-	gcsdkm "github.com/paralin/go-dota2/protocol"
-	gcsm "github.com/paralin/go-dota2/protocol"
-	"github.com/paralin/go-steam/protocol/gamecoordinator"
+	gcsdkm "github.com/marceloarc/go-dota2/protocol"
+	gcsm "github.com/marceloarc/go-dota2/protocol"
+	"github.com/marceloarc/go-steam/protocol/gamecoordinator"
 )
 
 // RequestCacheSubscriptionRefresh requests a subscription refresh for a specific cache ID.
@@ -68,3 +68,4 @@ func (d *Dota2) handleCacheDestroy(packet *gamecoordinator.GCPacket) error {
 
 	return nil
 }
+

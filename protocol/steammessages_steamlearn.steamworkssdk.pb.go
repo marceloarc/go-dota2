@@ -4318,3 +4318,4 @@ func file_steammessages_steamlearn_steamworkssdk_proto_init() {
 	file_steammessages_steamlearn_steamworkssdk_proto_goTypes = nil
 	file_steammessages_steamlearn_steamworkssdk_proto_depIdxs = nil
 }
+

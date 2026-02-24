@@ -1,8 +1,8 @@
 package dota2
 
 import (
-	gcccm "github.com/paralin/go-dota2/protocol"
-	gcm "github.com/paralin/go-dota2/protocol"
+	gcccm "github.com/marceloarc/go-dota2/protocol"
+	gcm "github.com/marceloarc/go-dota2/protocol"
 )
 
 // JoinLobbyTeam switches team in a lobby.
@@ -21,3 +21,4 @@ func (d *Dota2) SetLobbySlotBotDifficulty(team gcm.DOTA_GC_TEAM, slot uint32, bo
 		BotDifficulty: &botDifficulty,
 	})
 }
+

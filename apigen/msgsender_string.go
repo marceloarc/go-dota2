@@ -14,3 +14,4 @@ func (i MsgSender) String() string {
 	}
 	return _MsgSender_name[_MsgSender_index[i]:_MsgSender_index[i+1]]
 }
+

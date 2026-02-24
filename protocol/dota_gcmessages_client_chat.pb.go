@@ -2515,3 +2515,4 @@ func file_dota_gcmessages_client_chat_proto_init() {
 	file_dota_gcmessages_client_chat_proto_goTypes = nil
 	file_dota_gcmessages_client_chat_proto_depIdxs = nil
 }
+

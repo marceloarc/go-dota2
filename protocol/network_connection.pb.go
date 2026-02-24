@@ -657,3 +657,4 @@ func file_network_connection_proto_init() {
 	file_network_connection_proto_goTypes = nil
 	file_network_connection_proto_depIdxs = nil
 }
+

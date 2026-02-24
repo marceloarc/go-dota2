@@ -4904,3 +4904,4 @@ func file_dota_gcmessages_client_match_management_proto_init() {
 	file_dota_gcmessages_client_match_management_proto_goTypes = nil
 	file_dota_gcmessages_client_match_management_proto_depIdxs = nil
 }
+

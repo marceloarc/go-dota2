@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	gcm "github.com/paralin/go-dota2/protocol"
+	gcm "github.com/marceloarc/go-dota2/protocol"
 )
 
 type generatedEventHandler struct {
@@ -34,3 +34,4 @@ func buildGeneratedEventHandler(
 func (g *generatedEventHandler) generateComment() string {
 	return fmt.Sprintf("// %s event.\n// MessageID: %s\n", g.eventName, g.msgID.String())
 }
+

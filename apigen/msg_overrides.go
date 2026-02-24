@@ -2,7 +2,7 @@ package main
 
 import (
 	"github.com/golang/protobuf/proto"
-	dm "github.com/paralin/go-dota2/protocol"
+	dm "github.com/marceloarc/go-dota2/protocol"
 )
 
 // msgSenderOverrides overrides the heuristic-generated sender parties for each message
@@ -240,3 +240,4 @@ var msgEventNameOverrides = map[dm.EDOTAGCMsg]string{
 	dm.EDOTAGCMsg_k_EMsgGCOtherJoinedChannel:             "PlayerJoinedChannel",
 	dm.EDOTAGCMsg_k_EMsgGCOtherLeftChannel:               "PlayerLeftChannel",
 }
+

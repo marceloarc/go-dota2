@@ -4123,3 +4123,4 @@ func file_dota_gcmessages_msgid_proto_init() {
 	file_dota_gcmessages_msgid_proto_goTypes = nil
 	file_dota_gcmessages_msgid_proto_depIdxs = nil
 }
+

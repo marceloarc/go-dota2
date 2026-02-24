@@ -3,10 +3,10 @@ package dota2
 import (
 	"context"
 
-	"github.com/paralin/go-dota2/cso"
-	gcccm "github.com/paralin/go-dota2/protocol"
-	gcm "github.com/paralin/go-dota2/protocol"
-	gcmm "github.com/paralin/go-dota2/protocol"
+	"github.com/marceloarc/go-dota2/cso"
+	gcccm "github.com/marceloarc/go-dota2/protocol"
+	gcm "github.com/marceloarc/go-dota2/protocol"
+	gcmm "github.com/marceloarc/go-dota2/protocol"
 )
 
 // CreateLobby attempts to create a lobby with details.
@@ -84,3 +84,4 @@ func (d *Dota2) RespondLobbyInvite(lobbyId uint64, accept bool) {
 		Accept:  &accept,
 	})
 }
+
